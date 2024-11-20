@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div id="quiz" class="question">
+            <h2>Question 1: What is the capital of France?</h2>
+            <input type="radio" name="q1" value="Paris"> Paris<br>
+            <input type="radio" name="q1" value="Berlin"> Berlin<br>
+            <input type="radio" name="q1" value="Madrid"> Madrid<br>
+        </div>
+
+        <div id="quiz" class="question">
+            <h2>Question 2: What is the largest planet in our solar system?</h2>
+            <input type="radio" name="q2" value="Earth"> Earth<br>
+            <input type="radio" name="q2" value="Jupiter"> Jupiter<br>
+            <input type="radio" name="q2" value="Mars"> Mars<br>
+        </div>
+
+        <div id="quiz" class="question">
+            <h2>Question 3: Who wrote 'Romeo and Juliet'?</h2>
+            <input type="radio" name="q3" value="William Shakespeare"> William Shakespeare<br>
+            <input type="radio" name="q3" value="Charles Dickens"> Charles Dickens<br>
+            <input type="radio" name="q3" value="Jane Austen"> Jane Austen<br>
+        </div>
+
+        <button onclick="submitQuiz()">Submit Quiz</button>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
